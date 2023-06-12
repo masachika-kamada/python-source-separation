@@ -1,0 +1,5 @@
+myenv/
+tmp/
+__pycache__/
+.vscode/
+CMU_ARCTIC/

@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+sounddevice
+pyroomacoustics
+nara-wpe
