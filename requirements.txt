@@ -4,3 +4,4 @@ matplotlib
 sounddevice
 pyroomacoustics
 nara-wpe
+ipykernel
