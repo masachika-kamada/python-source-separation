@@ -1,5 +1,6 @@
 # 第2章のサンプルコード
 
+* :fire:[まとめノート](../section2/sec2.ipynb):fire:
 * [音声ファイルを開く](../section2/sample_code_c2_1.py)
 * [音声ファイルをグラフ化する](../section2/sample_code_c2_2.py)
 * [白色雑音をグラフ化する](../section2/sample_code_c2_3.py)
