@@ -18,7 +18,7 @@ def calculate_steering_vector(mic_alignments, source_locations, freqs, sound_spe
     # 音源数を取得
     n_source = np.shape(source_locations)[1]
 
-    if is_use_far == True:
+    if is_use_far is True:
         # 音源位置を正規化
         norm_source_locations = source_locations / np.linalg.norm(source_locations, 2, axis=0, keepdims=True)
 
@@ -84,7 +84,7 @@ def write_file_from_time_signal(signal, file_name, sample_rate):
 np.random.seed(0)
 
 # 畳み込みに用いる音声波形
-clean_wave_files = ["./CMU_ARCTIC/cmu_us_aew_arctic/wav/arctic_a0001.wav"]
+clean_wave_files = ["../arctic_a0001.wav"]
 
 # 音源数
 n_sources = len(clean_wave_files)
