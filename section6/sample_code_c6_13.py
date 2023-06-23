@@ -205,7 +205,7 @@ def execute_mwf(x, y, mu):
 np.random.seed(0)
 
 # 畳み込みに用いる音声波形
-clean_wave_files = ["./CMU_ARCTIC/cmu_us_aew_arctic/wav/arctic_a0001.wav", "./CMU_ARCTIC/cmu_us_axb_arctic/wav/arctic_a0002.wav"]
+clean_wave_files = ["../arctic_a0001.wav", "../arctic_a0002.wav"]
 
 # 雑音だけの区間のサンプル数を設定
 n_noise_only = 40000

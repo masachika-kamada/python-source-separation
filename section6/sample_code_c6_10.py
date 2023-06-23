@@ -84,7 +84,7 @@ def write_file_from_time_signal(signal, file_name, sample_rate):
 np.random.seed(0)
 
 # 畳み込みに用いる音声波形
-clean_wave_files = ["./CMU_ARCTIC/cmu_us_aew_arctic/wav/arctic_a0001.wav"]
+clean_wave_files = ["../arctic_a0001.wav"]
 
 
 # 雑音だけの区間のサンプル数を設定
@@ -130,7 +130,7 @@ Nk = N / 2 + 1
 freqs = np.arange(0, Nk, 1) * sample_rate / N
 
 # 音声と雑音との比率 [dB]
-SNR = 20.0
+SNR = 2.0
 
 # 部屋の大きさ
 room_dim = np.r_[10.0, 10.0, 10.0]

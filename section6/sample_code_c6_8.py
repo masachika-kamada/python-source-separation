@@ -84,7 +84,7 @@ def write_file_from_time_signal(signal, file_name, sample_rate):
 np.random.seed(0)
 
 # 畳み込みに用いる音声波形
-clean_wave_files = ["./CMU_ARCTIC/cmu_us_aew_arctic/wav/arctic_a0001.wav"]
+clean_wave_files = ["../arctic_a0001.wav"]
 
 # 音源数
 n_sources = len(clean_wave_files)
