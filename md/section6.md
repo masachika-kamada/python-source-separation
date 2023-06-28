@@ -1,5 +1,6 @@
 # 第6章のサンプルコード
 
+* :fire:[まとめノート](../section6/sec6.ipynb):fire:
 * [Far/Nearの両方に対応したステアリングベクトル計算コード](../section6/sample_code_c6_1.py)
 * [遅延和アレイによる雑音抑圧](../section6/sample_code_c6_2.py)
 * [遅延和アレイによる雑音抑圧（マイクロホンの数を変更）](../section6/sample_code_c6_3.py)
